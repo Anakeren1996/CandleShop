@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Prata&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/images/background-verde.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  margin: auto;
+  display: block;
+}
+
+section.topo {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  background-image: url("/images/background-verde.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section.topo .img-fluid {
+  width: 50%;
+}
+section.topo .img-fluid:hover, section.topo .img-fluid:focus {
+  opacity: 0.5;
+  transition: 1s;
+}
+section.topo .look {
+  font-family: "Prata";
+  color: #f7e38d;
+  font-size: 2vh;
+  text-transform: uppercase;
+}
+section.topo .our {
+  font-family: "Alex Brush";
+  font-size: 8vh;
+  color: #f7e38d;
+}
+section.topo .share {
+  font-family: "Prata-Regular";
+  font-size: 2.5vh;
+  color: #f7e38d;
+}
+section.topo .btn {
+  border: none;
+  background-color: #f7e38d;
+  color: #787860;
+  border-radius: 15px;
+  width: 25%;
+  height: 5vh;
+  font-family: "Prada-Regular";
+  font-size: 2.5vh;
+}
+section.topo .btn:hover {
+  background-color: #787860;
+  color: #f7e38d;
+  transition: ease-in-out 0.5s;
+}
+
+section.about {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  background-image: url("/images/background-branco.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section.about .first {
+  font-family: "Prata";
+  font-size: 3vh;
+  text-align: center;
+  text-transform: uppercase;
+  color: #9a9885;
+}
+section.about .second {
+  font-family: "Alex Brush";
+  font-size: 7vh;
+  color: #9a9885;
+  text-align: center;
+}
+section.about .third {
+  font-family: "Prata";
+  font-size: 2vh;
+  color: #9a9885;
+  text-align: justify;
+}
+
+section.carousel {
+  height: 70vh;
+  background-image: url("/images/background-verde.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.subscription {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("/images/background-branco.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section.subscription .look {
+  font-family: "Prata";
+  color: #9a9885;
+  font-size: 2vh;
+  text-transform: uppercase;
+}
+section.subscription .our {
+  font-family: "Alex Brush";
+  font-size: 8vh;
+  color: #9a9885;
+}
+section.subscription .share {
+  font-family: "Prata-Regular";
+  font-size: 2.5vh;
+  color: #9a9885;
+}
+section.subscription .btn {
+  border: none;
+  background-color: #f7e38d;
+  color: #9a9885;
+  border-radius: 15px;
+  width: 25%;
+  height: 5vh;
+  font-family: "Prada-Regular";
+  font-size: 2.5vh;
+}
+section.subscription .btn:hover {
+  background-color: #9a9885;
+  color: #f7e38d;
+  transition: ease-in-out 0.5s;
+}
+section.subscription .img-fluid {
+  width: 50%;
+  float: right;
+}
+section.subscription .img-fluid:hover, section.subscription .img-fluid:focus {
+  opacity: 0.5;
+  transition: 1s;
+}
+
+section.only-title {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/images/background-verde.png");
+}
+section.only-title .new {
+  font-family: "AlexBrush-Regular";
+  font-size: 7vh;
+  color: #f7e38d;
+}
+
+section.produtos {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("/images/background-verde.png");
+  background-size: cover;
+}
+section.produtos .img-fluid {
+  width: 70%;
+}
+section.produtos .primeira-foto {
+  height: 50vh;
+}
+section.produtos .segunda-foto {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+section.produtos #preco-descricao {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=syles.css.map */

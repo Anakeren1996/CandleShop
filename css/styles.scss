@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Prata&display=swap");
+
+$base-color: #f7e38d;
+$secondbase-color: #9a9885;
+$font-first: "Prata";
+$font-second: "Alex Brush";
+$centraliza-texto: center;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: $centraliza-texto;
+  align-items: $centraliza-texto;
+  background: url("/images/background-verde.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+section.topo {
+  padding: 100px;
+  background-image: url("/images/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .img-fluid {
+    width: 50%;
+    &:hover,
+    &:focus {
+      opacity: 0.5;
+      transition: 1s;
+    }
+  }
+  .look {
+    font-family: $font-first;
+    color: $base-color;
+    font-size: 2vh;
+    text-transform: uppercase;
+  }
+  .our {
+    font-family: $font-second;
+    font-size: 8vh;
+    color: $base-color;
+  }
+  .share {
+    font-family: "Prata-Regular";
+    font-size: 2.5vh;
+    color: $base-color;
+  }
+  .btn {
+    border: none;
+    background-color: $base-color;
+    color: #787860;
+    border-radius: 15px;
+    width: 25%;
+    height: 5vh;
+    font-family: "Prata-Regular";
+    font-size: 2.5vh;
+    &:hover {
+      background-color: #787860;
+      color: $base-color;
+      transition: ease-in-out 0.5s;
+    }
+  }
+}
+
+section.about {
+  padding: 100px;
+  background-image: url("/images/background-branco.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .first {
+    font-family: $font-first;
+    font-size: 3vh;
+    text-align: $centraliza-texto;
+    text-transform: uppercase;
+    color: #9a9885;
+  }
+  .second {
+    font-family: $font-second;
+    font-size: 7vh;
+    color: #9a9885;
+    text-align: $centraliza-texto;
+  }
+  .third {
+    font-family: $font-first;
+    font-size: 2vh;
+    color: #9a9885;
+    text-align: justify;
+  }
+}
+
+section.carousel {
+  padding: 100px;
+  background-image: url("/images/background-verde.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  h3 {
+    font-family: "Alex Brush";
+    font-size: 8vh;
+    color: $base-color;
+    text-align: $centraliza-texto;
+  }
+  .img-fluid {
+    width: 100%;
+  }
+  .card-title {
+    font-family: $font-first;
+    font-size: 2.5vh;
+    color: $base-color;
+    text-align: $centraliza-texto;
+  }
+  .card-text {
+    font-family: $font-first;
+    font-size: 1.5vh;
+    color: $base-color;
+    text-align: $centraliza-texto;
+  }
+  .botoes {
+    text-align: $centraliza-texto;
+  }
+}
+
+section.carousel-mobile {
+  display: none;
+}
+
+section.subscription {
+  padding: 100px;
+  background-image: url("/images/background-branco.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .conteudo-subs {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: $centraliza-texto;
+  }
+  .look {
+    font-family: $font-first;
+    color: #9a9885;
+    font-size: 2vh;
+    text-transform: uppercase;
+  }
+  .our {
+    font-family: $font-second;
+    font-size: 8vh;
+    color: #9a9885;
+  }
+  .share {
+    font-family: "Prata-Regular";
+    font-size: 2.5vh;
+    color: #9a9885;
+  }
+  .btn {
+    border: none;
+    background-color: $base-color;
+    color: #9a9885;
+    border-radius: 15px;
+    width: 25%;
+    height: 5vh;
+    font-family: "Prata-Regular";
+    font-size: 2.5vh;
+    &:hover {
+      background-color: #9a9885;
+      color: $base-color;
+      transition: ease-in-out 0.5s;
+    }
+  }
+  .img-fluid {
+    width: 50%;
+    float: right;
+    &:hover,
+    &:focus {
+      opacity: 0.5;
+      transition: 1s;
+    }
+  }
+}
+
+section.only-title {
+  height: 20vh;
+  display: flex;
+  align-items: $centraliza-texto;
+  justify-content: $centraliza-texto;
+  background-image: url("/images/background-verde.png");
+  .new {
+    font-family: "AlexBrush-Regular";
+    font-size: 7vh;
+    color: $base-color;
+  }
+}
+
+section.produtos {
+  padding: 100px;
+  background-image: url("/images/background-verde.png");
+  background-size: cover;
+  .img-fluid {
+    width: 60%;
+  }
+  .product {
+    text-align: center;
+  }
+  #preco-descricao {
+    text-align: center;
+    padding-top: 5vh;
+  }
+  .price {
+    font-family: $font-first;
+    font-size: 2vh;
+    color: $base-color;
+  }
+  .btn {
+    border: none;
+    background-color: $base-color;
+    color: #787860;
+    border-radius: 15px;
+    width: 50%;
+    height: 5vh;
+    font-family: "Prata-Regular";
+    font-size: 2.5vh;
+    &:hover {
+      background-color: #787860;
+      color: $base-color;
+      transition: ease-in-out 0.5s;
+    }
+  }
+}
+
+section.customers {
+  padding: 100px;
+  h3 {
+    font-family: $font-second;
+    font-size: 8vh;
+    font-weight: bolder;
+    color: #787860;
+  }
+  .say {
+    font-family: $font-first;
+    font-size: 3vh;
+    color: #787860;
+  }
+  p {
+    font-family: $font-first;
+    font-size: 2vh;
+    color: #787860;
+    text-align: $centraliza-texto;
+  }
+  strong {
+    font-family: $font-first;
+    font-size: 3vh;
+    text-transform: uppercase;
+    color: #787860;
+  }
+}
+
+section.sales {
+  padding: 100px;
+  background-image: url("/images/background-verde.png");
+  .new {
+    font-family: "Alex Brush";
+    font-size: 8vh;
+    color: $base-color;
+    text-align: $centraliza-texto;
+  }
+  .img-fluid {
+    width: 100%;
+  }
+  .price {
+    text-align: center;
+    font-family: "Prata";
+    font-size: 2vh;
+    color: $base-color;
+    padding-top: 4vh;
+  }
+  .btn {
+    border: none;
+    background-color: $base-color;
+    color: #787860;
+    border-radius: 15px;
+    width: 50%;
+    height: 5vh;
+    font-family: "Prata-Regular";
+    font-size: 2.5vh;
+    margin: auto;
+    display: block;
+    &:hover {
+      background-color: #787860;
+      color: $base-color;
+      transition: ease-in-out 0.5s;
+    }
+  }
+}
+
+footer {
+  padding: 100px;
+  strong {
+    font-family: $font-first;
+    font-size: 2vh;
+    text-transform: uppercase;
+    color: #787860;
+  }
+  p {
+    font-family: $font-first;
+    font-size: 1.5vh;
+    text-transform: uppercase;
+    text-align: justify;
+    color: #787860;
+  }
+  .rights {
+    padding-top: 2vh;
+    text-align: $centraliza-texto;
+  }
+  p {
+    text-align: $centraliza-texto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  section.topo {
+    padding: 20px;
+    .img-fluid {
+      width: 100%;
+    }
+    .btn {
+      width: 100%;
+    }
+  }
+
+  section.about {
+    padding: 20px;
+  }
+
+  section.carousel {
+    display: none;
+  }
+
+  section.carousel-mobile {
+    height: 100vh;
+    display: block;
+    display: flex;
+    align-items: $centraliza-texto;
+    background-image: url("/images/background-verde.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .img-fluid {
+      max-width: 70%;
+      margin: auto;
+      display: block;
+    }
+    h3 {
+      font-family: $font-second;
+      font-size: 8vh;
+      color: $base-color;
+      text-align: $centraliza-texto;
+    }
+    .card-title {
+      font-family: $font-first;
+      font-size: 2.5vh;
+      color: $base-color;
+      text-align: $centraliza-texto;
+    }
+    .card-text {
+      font-family: $font-first;
+      font-size: 2vh;
+      color: $base-color;
+      text-align: $centraliza-texto;
+    }
+    .botoes {
+      text-align: $centraliza-texto;
+    }
+  }
+
+  section.subscription {
+    padding: 20px;
+    .our {
+      font-size: 4vh;
+    }
+    .btn {
+      width: 100%;
+    }
+    .img-fluid {
+      width: 100%;
+      float: none;
+    }
+  }
+
+  section.only-title {
+    padding: 20px;
+  }
+
+  section.produtos {
+    padding: 20px;
+    .btn {
+      margin-bottom: 20px;
+    }
+  }
+
+  section.customers {
+    padding: 20px;
+  }
+
+  section.sales {
+    padding: 20px;
+    .btn {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.topo .conteudo {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

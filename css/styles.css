@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Prata&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/images/background-verde.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+section.topo {
+  padding: 100px;
+  background-image: url("/images/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section.topo .img-fluid {
+  width: 50%;
+}
+section.topo .img-fluid:hover, section.topo .img-fluid:focus {
+  opacity: 0.5;
+  transition: 1s;
+}
+section.topo .look {
+  font-family: "Prata";
+  color: #f7e38d;
+  font-size: 2vh;
+  text-transform: uppercase;
+}
+section.topo .our {
+  font-family: "Alex Brush";
+  font-size: 8vh;
+  color: #f7e38d;
+}
+section.topo .share {
+  font-family: "Prata-Regular";
+  font-size: 2.5vh;
+  color: #f7e38d;
+}
+section.topo .btn {
+  border: none;
+  background-color: #f7e38d;
+  color: #787860;
+  border-radius: 15px;
+  width: 25%;
+  height: 5vh;
+  font-family: "Prata-Regular";
+  font-size: 2.5vh;
+}
+section.topo .btn:hover {
+  background-color: #787860;
+  color: #f7e38d;
+  transition: ease-in-out 0.5s;
+}
+
+section.about {
+  padding: 100px;
+  background-image: url("/images/background-branco.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section.about .first {
+  font-family: "Prata";
+  font-size: 3vh;
+  text-align: center;
+  text-transform: uppercase;
+  color: #9a9885;
+}
+section.about .second {
+  font-family: "Alex Brush";
+  font-size: 7vh;
+  color: #9a9885;
+  text-align: center;
+}
+section.about .third {
+  font-family: "Prata";
+  font-size: 2vh;
+  color: #9a9885;
+  text-align: justify;
+}
+
+section.carousel {
+  padding: 100px;
+  background-image: url("/images/background-verde.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section.carousel h3 {
+  font-family: "Alex Brush";
+  font-size: 8vh;
+  color: #f7e38d;
+  text-align: center;
+}
+section.carousel .img-fluid {
+  width: 100%;
+}
+section.carousel .card-title {
+  font-family: "Prata";
+  font-size: 2.5vh;
+  color: #f7e38d;
+  text-align: center;
+}
+section.carousel .card-text {
+  font-family: "Prata";
+  font-size: 1.5vh;
+  color: #f7e38d;
+  text-align: center;
+}
+section.carousel .botoes {
+  text-align: center;
+}
+
+section.carousel-mobile {
+  display: none;
+}
+
+section.subscription {
+  padding: 100px;
+  background-image: url("/images/background-branco.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section.subscription .conteudo-subs {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.subscription .look {
+  font-family: "Prata";
+  color: #9a9885;
+  font-size: 2vh;
+  text-transform: uppercase;
+}
+section.subscription .our {
+  font-family: "Alex Brush";
+  font-size: 8vh;
+  color: #9a9885;
+}
+section.subscription .share {
+  font-family: "Prata-Regular";
+  font-size: 2.5vh;
+  color: #9a9885;
+}
+section.subscription .btn {
+  border: none;
+  background-color: #f7e38d;
+  color: #9a9885;
+  border-radius: 15px;
+  width: 25%;
+  height: 5vh;
+  font-family: "Prata-Regular";
+  font-size: 2.5vh;
+}
+section.subscription .btn:hover {
+  background-color: #9a9885;
+  color: #f7e38d;
+  transition: ease-in-out 0.5s;
+}
+section.subscription .img-fluid {
+  width: 50%;
+  float: right;
+}
+section.subscription .img-fluid:hover, section.subscription .img-fluid:focus {
+  opacity: 0.5;
+  transition: 1s;
+}
+
+section.only-title {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/images/background-verde.png");
+}
+section.only-title .new {
+  font-family: "AlexBrush-Regular";
+  font-size: 7vh;
+  color: #f7e38d;
+}
+
+section.produtos {
+  padding: 100px;
+  background-image: url("/images/background-verde.png");
+  background-size: cover;
+}
+section.produtos .img-fluid {
+  width: 60%;
+}
+section.produtos .product {
+  text-align: center;
+}
+section.produtos #preco-descricao {
+  text-align: center;
+  padding-top: 5vh;
+}
+section.produtos .price {
+  font-family: "Prata";
+  font-size: 2vh;
+  color: #f7e38d;
+}
+section.produtos .btn {
+  border: none;
+  background-color: #f7e38d;
+  color: #787860;
+  border-radius: 15px;
+  width: 50%;
+  height: 5vh;
+  font-family: "Prata-Regular";
+  font-size: 2.5vh;
+}
+section.produtos .btn:hover {
+  background-color: #787860;
+  color: #f7e38d;
+  transition: ease-in-out 0.5s;
+}
+
+section.customers {
+  padding: 100px;
+}
+section.customers h3 {
+  font-family: "Alex Brush";
+  font-size: 8vh;
+  font-weight: bolder;
+  color: #787860;
+}
+section.customers .say {
+  font-family: "Prata";
+  font-size: 3vh;
+  color: #787860;
+}
+section.customers p {
+  font-family: "Prata";
+  font-size: 2vh;
+  color: #787860;
+  text-align: center;
+}
+section.customers strong {
+  font-family: "Prata";
+  font-size: 3vh;
+  text-transform: uppercase;
+  color: #787860;
+}
+
+section.sales {
+  padding: 100px;
+  background-image: url("/images/background-verde.png");
+}
+section.sales .new {
+  font-family: "Alex Brush";
+  font-size: 8vh;
+  color: #f7e38d;
+  text-align: center;
+}
+section.sales .img-fluid {
+  width: 100%;
+}
+section.sales .price {
+  text-align: center;
+  font-family: "Prata";
+  font-size: 2vh;
+  color: #f7e38d;
+  padding-top: 4vh;
+}
+section.sales .btn {
+  border: none;
+  background-color: #f7e38d;
+  color: #787860;
+  border-radius: 15px;
+  width: 50%;
+  height: 5vh;
+  font-family: "Prata-Regular";
+  font-size: 2.5vh;
+  margin: auto;
+  display: block;
+}
+section.sales .btn:hover {
+  background-color: #787860;
+  color: #f7e38d;
+  transition: ease-in-out 0.5s;
+}
+
+footer {
+  padding: 100px;
+}
+footer strong {
+  font-family: "Prata";
+  font-size: 2vh;
+  text-transform: uppercase;
+  color: #787860;
+}
+footer p {
+  font-family: "Prata";
+  font-size: 1.5vh;
+  text-transform: uppercase;
+  text-align: justify;
+  color: #787860;
+}
+footer .rights {
+  padding-top: 2vh;
+  text-align: center;
+}
+footer p {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  section.topo {
+    padding: 20px;
+  }
+  section.topo .img-fluid {
+    width: 100%;
+  }
+  section.topo .btn {
+    width: 100%;
+  }
+
+  section.about {
+    padding: 20px;
+  }
+
+  section.carousel {
+    display: none;
+  }
+
+  section.carousel-mobile {
+    height: 100vh;
+    display: block;
+    display: flex;
+    align-items: center;
+    background-image: url("/images/background-verde.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  section.carousel-mobile .img-fluid {
+    max-width: 70%;
+    margin: auto;
+    display: block;
+  }
+  section.carousel-mobile h3 {
+    font-family: "Alex Brush";
+    font-size: 8vh;
+    color: #f7e38d;
+    text-align: center;
+  }
+  section.carousel-mobile .card-title {
+    font-family: "Prata";
+    font-size: 2.5vh;
+    color: #f7e38d;
+    text-align: center;
+  }
+  section.carousel-mobile .card-text {
+    font-family: "Prata";
+    font-size: 2vh;
+    color: #f7e38d;
+    text-align: center;
+  }
+  section.carousel-mobile .botoes {
+    text-align: center;
+  }
+
+  section.subscription {
+    padding: 20px;
+  }
+  section.subscription .our {
+    font-size: 4vh;
+  }
+  section.subscription .btn {
+    width: 100%;
+  }
+  section.subscription .img-fluid {
+    width: 100%;
+    float: none;
+  }
+
+  section.only-title {
+    padding: 20px;
+  }
+
+  section.produtos {
+    padding: 20px;
+  }
+  section.produtos .btn {
+    margin-bottom: 20px;
+  }
+
+  section.customers {
+    padding: 20px;
+  }
+
+  section.sales {
+    padding: 20px;
+  }
+  section.sales .btn {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  section.topo .conteudo {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
